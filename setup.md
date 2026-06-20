@@ -17,8 +17,8 @@ This guide gets you from zero to running L04 on your machine in about 15 minutes
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/flexfengfeng/dsai-m3-l04-learner.git
-cd dsai-m3-l04-learner
+git clone https://github.com/su-ntu-ctp/6m-data-3.4-Supervised-Learning-Advanced.git
+cd 6m-data-3.4-Supervised-Learning-Advanced
 
 # 2. Create the conda environment (skip if you already have dsai-m3 from L01–L03)
 conda env create -f environment.yml
@@ -77,8 +77,8 @@ conda --version
 ```bash
 mkdir -p ~/repos
 cd ~/repos
-git clone https://github.com/flexfengfeng/dsai-m3-l04-learner.git
-cd dsai-m3-l04-learner
+git clone https://github.com/su-ntu-ctp/6m-data-3.4-Supervised-Learning-Advanced.git
+cd 6m-data-3.4-Supervised-Learning-Advanced
 ```
 
 On WSL, clone **inside WSL** (`~/repos/...`), not on `/mnt/c/...` — notebooks run 5–10× faster on the Linux filesystem.
@@ -135,7 +135,7 @@ In VS Code, **Cmd/Ctrl+Shift+X** opens the Extensions sidebar. Install:
 ## 5. Open the repo in VS Code
 
 ```bash
-cd ~/repos/dsai-m3-l04-learner
+cd ~/repos/6m-data-3.4-Supervised-Learning-Advanced
 code .
 ```
 
@@ -190,7 +190,7 @@ You're probably running notebooks from `/mnt/c/...`. Move them to `~/repos/...` 
 
 ### Something else broke
 
-Open an issue: https://github.com/flexfengfeng/dsai-m3-l04-learner/issues. Include:
+Open an issue: https://github.com/su-ntu-ctp/6m-data-3.4-Supervised-Learning-Advanced/issues. Include:
 - macOS or WSL? (and version)
 - Output of `conda --version`, `python --version`, `pip show scikit-learn xgboost lightgbm`
 - The full error traceback
